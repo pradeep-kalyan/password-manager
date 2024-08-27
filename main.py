@@ -2,7 +2,6 @@ from tkinter import messagebox
 from tkinter import *
 import random,string,subprocess,json,time
 from cipher import Crypt
-from idle_time import IdleMonitor
 global shift
 shift=random.randint(0,10)
 shift=shift%26
