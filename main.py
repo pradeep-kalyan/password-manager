@@ -90,7 +90,7 @@ def user():
     inppwd=password.get()
     if inpnam==user_n and inppwd==pwd_n:
         messagebox.showinfo(title="Welcome",message="Welcome to our service")
-        # crypt.decrypt("data.json")
+        crypt.decrypt("data.json")
         username.grid_forget()
         password.grid_forget()
         btnck.grid_forget()
